@@ -5,7 +5,7 @@ This project is to build a mockup application allowing us to search/filter, vote
 ## Instructions
 - Using vue cli to init the project
     - `vue create [project-name]`
-    - choose default preset (Vue2)
+    - choose default preset (Vue3)
     - choose yarn dependency
 - Sample data: `src/data.json`
 - Style: `src/assets/styles.css`
