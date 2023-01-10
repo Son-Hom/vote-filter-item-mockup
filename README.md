@@ -6,7 +6,6 @@ This project is to build a mockup application allowing us to search/filter, vote
 - Using vue cli to init the project
     - `vue create [project-name]`
     - choose default preset (Vue3)
-    - choose yarn dependency
 - Sample data: `src/data.json`
 - Style: `src/assets/styles.css`
 - Create a new PostComponent.vue under components folder and paste the code below into the template section:
