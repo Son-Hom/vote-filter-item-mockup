@@ -21,7 +21,6 @@
         </div>
       </div>
   </template>
-  
   <script>
   import '../assets/style.css';
   import jsonData from '../data.json'
@@ -33,13 +32,13 @@
       }
     },
     computed: {
+      // filter
       filteredList() {
         return this.data.filter(post => {
           return post.title.toLowerCase().includes(this.search.toLowerCase())
         })
       }
     }
-
   };
   </script>
   <style>
